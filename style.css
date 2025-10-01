@@ -236,3 +236,41 @@ header {
   font-weight: 700px;
   text-align: center;
 }
+.services{
+  align-items: center;
+  padding: 120px 80px 60px;
+  height: 100vh;
+  color: white;
+}
+.headserve{
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.serve{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px 80px;
+  gap: 20px;
+  align-items: center;
+}
+.card{
+  align-items: center;
+  border: 1px solid orangered;
+  max-width: 310px;
+  max-height: 310px;
+  padding: 15px;
+  border-radius: 20px;
+}
+.card-img img{
+  max-width: 300px;
+  border-radius: 20px;
+  transition: all 0.5s ease-in-out;
+}
+.card:hover .card-img img{
+  transform: scale(0.9);
+}
