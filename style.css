@@ -13,7 +13,7 @@ body {
 /* Navbar */
 header {
   width: 100%;
-  padding: 20px 80px;
+  padding: 20px;
   position: fixed;
   top: 0;
   left: 0;
@@ -22,7 +22,7 @@ header {
 }
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .logo {
@@ -58,13 +58,13 @@ header {
   background: orangered;
   padding: 10px 20px;
   text-decoration: none;
-  color: #000;
+  color: white;
   border-radius: 5px;
   transition: 0.3s;
 }
 .btn:hover {
-  background: orangered;
-  color: #fff;
+  background: white;
+  color: orangered;
 }
 .contact{
   background: transparent;
@@ -76,9 +76,13 @@ header {
   text-align: center;
   color: orangered;
 }
+.contact:hover{
+  background: orangered;
+  color: white;
+}
 .main{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 120px 80px 60px;
   height: 90vh;
@@ -105,30 +109,130 @@ header {
   color: #ccc;
 }
 .main-img img{
-  max-width: 450px;
+  max-width: 400px;
+  border-radius: 5px;
+}
+.fa-heart{
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+.hea{
+  position: relative;
+}
+.heart{
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: orangered;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  box-shadow: 0 14px 6px rgba(255, 68, 0, );
+  max-width: 100px;
+  height: 70px;
+  padding: 5px;
+  bottom: 70px;
+  right: -30px;
+}
+.signal{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  position: absolute;
+  background: orangered;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  box-shadow: 0 14px 6px rgba(255, 68, 0, );
+  max-width: 150px;
+  height: 50px;
+  padding: 10px;
+  bottom: -30px;
+  left: 30px;
+}
+.txt{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-.about{
-  display: flex;
-  justify-content: space-between;
-}
 .abt{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.about{
   align-items: center;
   padding: 120px 80px 60px;
   height: 100vh;
   color: white;
 }
-.abt h1{
-  display: flex;
-  font-size: 50px;
-  align-items: center;
-  text-align: center;
-  margin: auto;
-  gap: 15px;
-}
 .white{
   color: orangered;
 }
+.abt-img img{
+ max-width: 450px;
+ min-height: 370px;
+}
+.abt-txt{
+ max-width: 45%;
+}
+.abt-txt h1{
+  font-size: 45px;
+  margin: 10px 0;
+  line-height: 1.2;
+}
 .abt-btn{
-  
+  border: transparent;
+  background: rgba(255, 68, 0, 0.5);
+  color: orangered;
+  width: 100px;
+  padding: 10px;
+  border-radius: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+.btn-expl {
+  margin: 10px 0;
+  background: orangered;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  border: transparent;
+  transition: 0.3s;
+}
+.btn-expl:hover {
+  background: white;
+  color: orangered;
+}
+.play-vid{
+  position: relative;
+}
+.play{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border: 2px solid orangered;
+  border-radius: 50%;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.fa-play{
+  color: orangered;
+  font-size: 30px;
+  font-weight: 700px;
+  text-align: center;
 }
