@@ -19,6 +19,7 @@ header {
   left: 0;
   background: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(6px);
+  z-index: 1;
 }
 .navbar {
   display: flex;
@@ -175,6 +176,7 @@ header {
   color: orangered;
 }
 .abt-img img{
+
  max-width: 450px;
  min-height: 370px;
 }
@@ -212,9 +214,11 @@ header {
   color: orangered;
 }
 .play-vid{
+  z-index: 0;
   position: relative;
 }
 .play{
+  z-index: 0;
   position: absolute;
   display: flex;
   align-items: center;
