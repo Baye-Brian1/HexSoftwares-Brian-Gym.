@@ -278,3 +278,121 @@ header {
 .card:hover .card-img img{
   transform: scale(0.9);
 }
+.classes{
+  align-items: center;
+  padding: 120px 80px 60px;
+  height: 100vh;
+  color: white;
+}
+.classes h1{
+  text-align: center;
+  font-size: 35px;
+  margin: 10px 0;
+  line-height: 1.2;
+}
+.class-btn{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: transparent;
+  background: rgba(255, 68, 0, 0.5);
+  color: orangered;
+  width: 140px;
+  padding: 13px;
+  border-radius: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+.workout{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px 80px;
+  gap: 20px;
+  align-items: center;
+}
+.card-work{
+  cursor: pointer;
+  display: flex;
+  background: white;
+  justify-content: flex-start;
+  flex-direction: column;
+  color: black;
+  max-width: 360px;
+  min-height: 300px;
+  border-radius: 10px;
+}
+.card-work img{
+  width: 100%;
+  border-radius: 10px;
+}
+.full{
+  width: 100%;
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  justify-content: space-between;
+}
+.card-txt{
+  padding: 10px;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.card-txt h3{
+  color: orangered;
+  font-size: 22px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 900;
+}
+.light{
+  font-size: 14px;
+  color: grey;
+}
+.bar{
+  position: relative;
+  background: rgba(255, 68, 0, 0.4);
+  padding: 5px;
+  border-radius: 10px;
+  width: 100%;
+}
+.bar-in1{
+  position: absolute;
+  background: orangered;
+  padding: 5px;
+  border-radius: 10px;
+  width: 90%;
+  top: 0;
+  left: 0;
+}
+.bar-in2{
+  position: absolute;
+  background: orangered;
+  padding: 5px;
+  border-radius: 10px;
+  width: 70%;
+  top: 0;
+  left: 0;
+}
+.bar-in3{
+  position: absolute;
+  background: orangered;
+  padding: 5px;
+  border-radius: 10px;
+  width: 50%;
+  top: 0;
+  left: 0;
+}
+.bar-in4{
+  position: absolute;
+  background: orangered;
+  padding: 5px;
+  border-radius: 10px;
+  width: 60%;
+  top: 0;
+  left: 0;
+}
